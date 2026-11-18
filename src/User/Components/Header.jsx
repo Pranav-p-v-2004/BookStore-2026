@@ -11,7 +11,7 @@ function Header() {
     <div className='grid grid-cols-3 p-3'>
       {/* Logo */}
       <div className='flex items-center'>
-        <img width={'70px'} src="public/favicon.png" alt="no image" />
+        <img width={'40px'} src="https://png.pngtree.com/png-clipart/20250612/original/pngtree-opened-book-isolated-on-transparent-background-png-image_21186644.png" alt="no image" />
         <h1 className='text-2xl ms-3 font-bold md:hidden'>BookStore</h1>
       </div>
       {/* Title */}
@@ -28,7 +28,7 @@ function Header() {
 
     </div>
     {/* Navigatiuon Part */}
-    <nav className='bg-black w-full text-white md:flex justify-center items-center p-2'>
+    <nav className='bg-[#17251D] w-full text-white md:flex justify-center items-center p-2'>
       {/* Menu & Login At small screen */}
       <div className='flex justify-between items-center text-2xl md:hidden'>
         <button onClick={()=>setToogle(!toogle)}><FaBars /></button>

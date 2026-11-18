@@ -5,7 +5,7 @@ import { FaSquareTwitter } from 'react-icons/fa6'
 function Footer() {
   return (
     <>
-    <div className='md:grid grid-cols-3 md:gap-10 bg-black text-white p-10'>
+    <div className='md:grid grid-cols-3 md:gap-10 bg-[#17251D] text-white p-10'>
       {/* About us */}
       <div>
         <h1 className='font-bold'>ABOUT US</h1>
