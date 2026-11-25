@@ -16,7 +16,7 @@ function AdminDashboard() {
 
       {/* 2nd section 4-grid */}
       <div className='col-span-4'>
-         Admin Dasboard
+         AdminDasboard
       </div>
       
     </div>
